@@ -9,6 +9,7 @@ public class Es5 {
         nomi.add("lidia");
         nomi.add("marco");
 
+        System.out.println("lista nomi: " + nomi);
         Scanner input = new Scanner(System.in);
         System.out.println("nome da rimuovere: ");
         String rimuovere = input.nextLine();
